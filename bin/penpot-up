@@ -1,0 +1,5 @@
+#! /bin/zsh
+cd "${0:A:h}"
+docker compose up -d
+echo visit http://localhost:9001 ✅
+cd -
